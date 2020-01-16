@@ -4,7 +4,6 @@ const Dashboard = props => {
 
     function handleBall() {
         
-        console.log('ball clicked')
         props.setAtBat({
             ...props.atBat,
             ball: props.atBat.ball += 1

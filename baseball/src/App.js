@@ -16,8 +16,6 @@ const App = () => {
 
 
   let num = Math.floor(atBat.totalOut/3);
-  console.log('num',num);
-  console.log('Total Out',atBat.totalOut);
 
   useEffect(() => {
 
